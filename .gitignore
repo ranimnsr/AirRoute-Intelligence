@@ -1,0 +1,40 @@
+# Data (too large for GitHub — regenerate with preprocessing scripts)
+data/processed/
+datasets/
+
+# Large generated files
+results/dashboard_data.json
+results/tgn_best.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Claude Code
+.claude/

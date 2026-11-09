@@ -1,0 +1,719 @@
+{
+  "graph_stats": {
+    "nodes": 13986,
+    "edges": 505101,
+    "total_flights": 4846953,
+    "time_window_months": 3
+  },
+  "top_airports": {
+    "by_degree": [
+      "KORD",
+      "KATL",
+      "KDEN",
+      "KLAX",
+      "KLAS",
+      "KDFW",
+      "KCLT",
+      "KPHX",
+      "KSEA",
+      "KBOS",
+      "KEWR",
+      "EHAM",
+      "KMCO",
+      "KJFK",
+      "KSFO",
+      "EDDF",
+      "KMIA",
+      "KMSP",
+      "KPHL",
+      "LFPG"
+    ],
+    "by_betweenness": [
+      "PANC",
+      "KTEB",
+      "KORD",
+      "KIAD",
+      "KAPA",
+      "KADS",
+      "KLAX",
+      "KHPN",
+      "KSFO",
+      "KIND",
+      "YSSY",
+      "KPTK",
+      "KLAS",
+      "KPWK",
+      "KDAL",
+      "EDDF",
+      "KRDU",
+      "KDFW",
+      "LFPB",
+      "KAUS"
+    ],
+    "by_pagerank": [
+      "KORD",
+      "KATL",
+      "KDFW",
+      "KCLT",
+      "KDEN",
+      "KLAS",
+      "KLAX",
+      "KPHX",
+      "KBOS",
+      "KMSP",
+      "KIAD",
+      "KSEA",
+      "KIND",
+      "KMCO",
+      "KAPA",
+      "KEWR",
+      "KPDK",
+      "KDTW",
+      "KPHL",
+      "KBNA"
+    ]
+  },
+  "communities": {
+    "num_communities": 67,
+    "sizes": [
+      2395,
+      1517,
+      1437,
+      1355,
+      1323,
+      1153,
+      907,
+      678,
+      639,
+      489,
+      447,
+      415,
+      244,
+      186,
+      130,
+      127,
+      79,
+      71,
+      61,
+      55
+    ]
+  },
+  "disruption": {
+    "targeted": [
+      {
+        "removed": 0,
+        "num_scc": 2008,
+        "largest_scc": 11976,
+        "connectivity": 0.8562848562848563
+      },
+      {
+        "removed": 1,
+        "num_scc": 2013,
+        "largest_scc": 11970,
+        "connectivity": 0.8558558558558559
+      },
+      {
+        "removed": 2,
+        "num_scc": 2014,
+        "largest_scc": 11968,
+        "connectivity": 0.8557128557128557
+      },
+      {
+        "removed": 3,
+        "num_scc": 2024,
+        "largest_scc": 11957,
+        "connectivity": 0.8549263549263549
+      },
+      {
+        "removed": 4,
+        "num_scc": 2025,
+        "largest_scc": 11955,
+        "connectivity": 0.8547833547833548
+      },
+      {
+        "removed": 5,
+        "num_scc": 2032,
+        "largest_scc": 11947,
+        "connectivity": 0.8542113542113542
+      },
+      {
+        "removed": 6,
+        "num_scc": 2035,
+        "largest_scc": 11943,
+        "connectivity": 0.853925353925354
+      },
+      {
+        "removed": 7,
+        "num_scc": 2036,
+        "largest_scc": 11941,
+        "connectivity": 0.8537823537823538
+      },
+      {
+        "removed": 8,
+        "num_scc": 2039,
+        "largest_scc": 11937,
+        "connectivity": 0.8534963534963534
+      },
+      {
+        "removed": 9,
+        "num_scc": 2040,
+        "largest_scc": 11935,
+        "connectivity": 0.8533533533533534
+      },
+      {
+        "removed": 10,
+        "num_scc": 2043,
+        "largest_scc": 11931,
+        "connectivity": 0.853067353067353
+      },
+      {
+        "removed": 11,
+        "num_scc": 2044,
+        "largest_scc": 11929,
+        "connectivity": 0.852924352924353
+      },
+      {
+        "removed": 12,
+        "num_scc": 2048,
+        "largest_scc": 11924,
+        "connectivity": 0.8525668525668526
+      },
+      {
+        "removed": 13,
+        "num_scc": 2051,
+        "largest_scc": 11920,
+        "connectivity": 0.8522808522808523
+      },
+      {
+        "removed": 14,
+        "num_scc": 2056,
+        "largest_scc": 11914,
+        "connectivity": 0.8518518518518519
+      },
+      {
+        "removed": 15,
+        "num_scc": 2057,
+        "largest_scc": 11912,
+        "connectivity": 0.8517088517088517
+      },
+      {
+        "removed": 16,
+        "num_scc": 2059,
+        "largest_scc": 11909,
+        "connectivity": 0.8514943514943515
+      },
+      {
+        "removed": 17,
+        "num_scc": 2059,
+        "largest_scc": 11908,
+        "connectivity": 0.8514228514228515
+      },
+      {
+        "removed": 18,
+        "num_scc": 2065,
+        "largest_scc": 11901,
+        "connectivity": 0.8509223509223509
+      },
+      {
+        "removed": 19,
+        "num_scc": 2065,
+        "largest_scc": 11900,
+        "connectivity": 0.8508508508508509
+      },
+      {
+        "removed": 20,
+        "num_scc": 2065,
+        "largest_scc": 11899,
+        "connectivity": 0.8507793507793507
+      },
+      {
+        "removed": 21,
+        "num_scc": 2071,
+        "largest_scc": 11892,
+        "connectivity": 0.8502788502788503
+      },
+      {
+        "removed": 22,
+        "num_scc": 2076,
+        "largest_scc": 11886,
+        "connectivity": 0.8498498498498499
+      },
+      {
+        "removed": 23,
+        "num_scc": 2080,
+        "largest_scc": 11881,
+        "connectivity": 0.8494923494923495
+      },
+      {
+        "removed": 24,
+        "num_scc": 2080,
+        "largest_scc": 11880,
+        "connectivity": 0.8494208494208494
+      },
+      {
+        "removed": 25,
+        "num_scc": 2082,
+        "largest_scc": 11877,
+        "connectivity": 0.8492063492063492
+      },
+      {
+        "removed": 26,
+        "num_scc": 2084,
+        "largest_scc": 11874,
+        "connectivity": 0.848991848991849
+      },
+      {
+        "removed": 27,
+        "num_scc": 2086,
+        "largest_scc": 11871,
+        "connectivity": 0.8487773487773488
+      },
+      {
+        "removed": 28,
+        "num_scc": 2086,
+        "largest_scc": 11870,
+        "connectivity": 0.8487058487058488
+      },
+      {
+        "removed": 29,
+        "num_scc": 2086,
+        "largest_scc": 11869,
+        "connectivity": 0.8486343486343486
+      },
+      {
+        "removed": 30,
+        "num_scc": 2087,
+        "largest_scc": 11867,
+        "connectivity": 0.8484913484913484
+      },
+      {
+        "removed": 31,
+        "num_scc": 2089,
+        "largest_scc": 11864,
+        "connectivity": 0.8482768482768482
+      },
+      {
+        "removed": 32,
+        "num_scc": 2090,
+        "largest_scc": 11862,
+        "connectivity": 0.8481338481338482
+      },
+      {
+        "removed": 33,
+        "num_scc": 2091,
+        "largest_scc": 11860,
+        "connectivity": 0.847990847990848
+      },
+      {
+        "removed": 34,
+        "num_scc": 2102,
+        "largest_scc": 11848,
+        "connectivity": 0.8471328471328471
+      },
+      {
+        "removed": 35,
+        "num_scc": 2109,
+        "largest_scc": 11840,
+        "connectivity": 0.8465608465608465
+      },
+      {
+        "removed": 36,
+        "num_scc": 2109,
+        "largest_scc": 11839,
+        "connectivity": 0.8464893464893465
+      },
+      {
+        "removed": 37,
+        "num_scc": 2121,
+        "largest_scc": 11826,
+        "connectivity": 0.8455598455598455
+      },
+      {
+        "removed": 38,
+        "num_scc": 2127,
+        "largest_scc": 11819,
+        "connectivity": 0.8450593450593451
+      },
+      {
+        "removed": 39,
+        "num_scc": 2130,
+        "largest_scc": 11815,
+        "connectivity": 0.8447733447733448
+      },
+      {
+        "removed": 40,
+        "num_scc": 2130,
+        "largest_scc": 11814,
+        "connectivity": 0.8447018447018447
+      },
+      {
+        "removed": 41,
+        "num_scc": 2137,
+        "largest_scc": 11806,
+        "connectivity": 0.8441298441298442
+      },
+      {
+        "removed": 42,
+        "num_scc": 2140,
+        "largest_scc": 11802,
+        "connectivity": 0.8438438438438438
+      },
+      {
+        "removed": 43,
+        "num_scc": 2140,
+        "largest_scc": 11801,
+        "connectivity": 0.8437723437723438
+      },
+      {
+        "removed": 44,
+        "num_scc": 2143,
+        "largest_scc": 11797,
+        "connectivity": 0.8434863434863434
+      },
+      {
+        "removed": 45,
+        "num_scc": 2144,
+        "largest_scc": 11795,
+        "connectivity": 0.8433433433433434
+      },
+      {
+        "removed": 46,
+        "num_scc": 2145,
+        "largest_scc": 11793,
+        "connectivity": 0.8432003432003432
+      },
+      {
+        "removed": 47,
+        "num_scc": 2163,
+        "largest_scc": 11774,
+        "connectivity": 0.8418418418418419
+      },
+      {
+        "removed": 48,
+        "num_scc": 2166,
+        "largest_scc": 11770,
+        "connectivity": 0.8415558415558415
+      },
+      {
+        "removed": 49,
+        "num_scc": 2167,
+        "largest_scc": 11768,
+        "connectivity": 0.8414128414128415
+      },
+      {
+        "removed": 50,
+        "num_scc": 2169,
+        "largest_scc": 11765,
+        "connectivity": 0.8411983411983412
+      }
+    ],
+    "random": [
+      {
+        "removed": 0,
+        "num_scc": 2008,
+        "largest_scc": 11976,
+        "connectivity": 0.8562848562848563
+      },
+      {
+        "removed": 1,
+        "num_scc": 2009,
+        "largest_scc": 11974,
+        "connectivity": 0.8561418561418561
+      },
+      {
+        "removed": 2,
+        "num_scc": 2009,
+        "largest_scc": 11973,
+        "connectivity": 0.8560703560703561
+      },
+      {
+        "removed": 3,
+        "num_scc": 2010,
+        "largest_scc": 11971,
+        "connectivity": 0.8559273559273559
+      },
+      {
+        "removed": 4,
+        "num_scc": 2010,
+        "largest_scc": 11970,
+        "connectivity": 0.8558558558558559
+      },
+      {
+        "removed": 5,
+        "num_scc": 2010,
+        "largest_scc": 11969,
+        "connectivity": 0.8557843557843557
+      },
+      {
+        "removed": 6,
+        "num_scc": 2010,
+        "largest_scc": 11968,
+        "connectivity": 0.8557128557128557
+      },
+      {
+        "removed": 7,
+        "num_scc": 2010,
+        "largest_scc": 11967,
+        "connectivity": 0.8556413556413557
+      },
+      {
+        "removed": 8,
+        "num_scc": 2010,
+        "largest_scc": 11966,
+        "connectivity": 0.8555698555698555
+      },
+      {
+        "removed": 9,
+        "num_scc": 2009,
+        "largest_scc": 11966,
+        "connectivity": 0.8555698555698555
+      },
+      {
+        "removed": 10,
+        "num_scc": 2009,
+        "largest_scc": 11965,
+        "connectivity": 0.8554983554983555
+      },
+      {
+        "removed": 11,
+        "num_scc": 2009,
+        "largest_scc": 11964,
+        "connectivity": 0.8554268554268555
+      },
+      {
+        "removed": 12,
+        "num_scc": 2009,
+        "largest_scc": 11963,
+        "connectivity": 0.8553553553553553
+      },
+      {
+        "removed": 13,
+        "num_scc": 2010,
+        "largest_scc": 11961,
+        "connectivity": 0.8552123552123552
+      },
+      {
+        "removed": 14,
+        "num_scc": 2010,
+        "largest_scc": 11960,
+        "connectivity": 0.8551408551408551
+      },
+      {
+        "removed": 15,
+        "num_scc": 2010,
+        "largest_scc": 11959,
+        "connectivity": 0.8550693550693551
+      },
+      {
+        "removed": 16,
+        "num_scc": 2010,
+        "largest_scc": 11958,
+        "connectivity": 0.854997854997855
+      },
+      {
+        "removed": 17,
+        "num_scc": 2009,
+        "largest_scc": 11958,
+        "connectivity": 0.854997854997855
+      },
+      {
+        "removed": 18,
+        "num_scc": 2009,
+        "largest_scc": 11957,
+        "connectivity": 0.8549263549263549
+      },
+      {
+        "removed": 19,
+        "num_scc": 2009,
+        "largest_scc": 11956,
+        "connectivity": 0.8548548548548549
+      },
+      {
+        "removed": 20,
+        "num_scc": 2009,
+        "largest_scc": 11955,
+        "connectivity": 0.8547833547833548
+      },
+      {
+        "removed": 21,
+        "num_scc": 2008,
+        "largest_scc": 11955,
+        "connectivity": 0.8547833547833548
+      },
+      {
+        "removed": 22,
+        "num_scc": 2008,
+        "largest_scc": 11954,
+        "connectivity": 0.8547118547118547
+      },
+      {
+        "removed": 23,
+        "num_scc": 2007,
+        "largest_scc": 11954,
+        "connectivity": 0.8547118547118547
+      },
+      {
+        "removed": 24,
+        "num_scc": 2007,
+        "largest_scc": 11953,
+        "connectivity": 0.8546403546403546
+      },
+      {
+        "removed": 25,
+        "num_scc": 2006,
+        "largest_scc": 11953,
+        "connectivity": 0.8546403546403546
+      },
+      {
+        "removed": 26,
+        "num_scc": 2005,
+        "largest_scc": 11953,
+        "connectivity": 0.8546403546403546
+      },
+      {
+        "removed": 27,
+        "num_scc": 2005,
+        "largest_scc": 11952,
+        "connectivity": 0.8545688545688546
+      },
+      {
+        "removed": 28,
+        "num_scc": 2005,
+        "largest_scc": 11951,
+        "connectivity": 0.8544973544973545
+      },
+      {
+        "removed": 29,
+        "num_scc": 2005,
+        "largest_scc": 11950,
+        "connectivity": 0.8544258544258544
+      },
+      {
+        "removed": 30,
+        "num_scc": 2005,
+        "largest_scc": 11949,
+        "connectivity": 0.8543543543543544
+      },
+      {
+        "removed": 31,
+        "num_scc": 2005,
+        "largest_scc": 11948,
+        "connectivity": 0.8542828542828543
+      },
+      {
+        "removed": 32,
+        "num_scc": 2005,
+        "largest_scc": 11947,
+        "connectivity": 0.8542113542113542
+      },
+      {
+        "removed": 33,
+        "num_scc": 2005,
+        "largest_scc": 11946,
+        "connectivity": 0.8541398541398542
+      },
+      {
+        "removed": 34,
+        "num_scc": 2005,
+        "largest_scc": 11945,
+        "connectivity": 0.854068354068354
+      },
+      {
+        "removed": 35,
+        "num_scc": 2005,
+        "largest_scc": 11944,
+        "connectivity": 0.853996853996854
+      },
+      {
+        "removed": 36,
+        "num_scc": 2004,
+        "largest_scc": 11944,
+        "connectivity": 0.853996853996854
+      },
+      {
+        "removed": 37,
+        "num_scc": 2004,
+        "largest_scc": 11943,
+        "connectivity": 0.853925353925354
+      },
+      {
+        "removed": 38,
+        "num_scc": 2004,
+        "largest_scc": 11942,
+        "connectivity": 0.8538538538538538
+      },
+      {
+        "removed": 39,
+        "num_scc": 2003,
+        "largest_scc": 11942,
+        "connectivity": 0.8538538538538538
+      },
+      {
+        "removed": 40,
+        "num_scc": 2002,
+        "largest_scc": 11942,
+        "connectivity": 0.8538538538538538
+      },
+      {
+        "removed": 41,
+        "num_scc": 2002,
+        "largest_scc": 11941,
+        "connectivity": 0.8537823537823538
+      },
+      {
+        "removed": 42,
+        "num_scc": 2001,
+        "largest_scc": 11941,
+        "connectivity": 0.8537823537823538
+      },
+      {
+        "removed": 43,
+        "num_scc": 2001,
+        "largest_scc": 11940,
+        "connectivity": 0.8537108537108538
+      },
+      {
+        "removed": 44,
+        "num_scc": 2001,
+        "largest_scc": 11939,
+        "connectivity": 0.8536393536393536
+      },
+      {
+        "removed": 45,
+        "num_scc": 2001,
+        "largest_scc": 11938,
+        "connectivity": 0.8535678535678536
+      },
+      {
+        "removed": 46,
+        "num_scc": 2001,
+        "largest_scc": 11937,
+        "connectivity": 0.8534963534963534
+      },
+      {
+        "removed": 47,
+        "num_scc": 2001,
+        "largest_scc": 11936,
+        "connectivity": 0.8534248534248534
+      },
+      {
+        "removed": 48,
+        "num_scc": 2000,
+        "largest_scc": 11936,
+        "connectivity": 0.8534248534248534
+      },
+      {
+        "removed": 49,
+        "num_scc": 1999,
+        "largest_scc": 11936,
+        "connectivity": 0.8534248534248534
+      },
+      {
+        "removed": 50,
+        "num_scc": 1999,
+        "largest_scc": 11935,
+        "connectivity": 0.8533533533533534
+      }
+    ]
+  }
+}

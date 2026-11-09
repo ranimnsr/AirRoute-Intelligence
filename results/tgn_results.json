@@ -1,0 +1,47 @@
+{
+  "model": "TGN (memory-only, no GNN)",
+  "parameters": 201701,
+  "architecture": {
+    "memory_dim": 100,
+    "time_dim": 100,
+    "message_function": "IdentityMessage",
+    "aggregator": "LastAggregator",
+    "gnn": false,
+    "link_predictor": "3-layer MLP"
+  },
+  "training": {
+    "train_months": 3,
+    "train_edges": 4902211,
+    "epochs": 2,
+    "batch_size": 200,
+    "learning_rate": 0.0001,
+    "loss": "BPR (softplus)",
+    "negative_sampling": "random (1 per positive)"
+  },
+  "results": {
+    "epoch_1": {
+      "train_loss": 0.0520,
+      "val_mrr": 0.7234,
+      "val_hits10": 0.9709,
+      "train_time_s": 2024,
+      "eval_time_s": 132,
+      "eval_edges": 100000
+    },
+    "epoch_2": {
+      "train_loss": 0.0528,
+      "val_mrr": 0.7323,
+      "val_hits10": 0.9823,
+      "train_time_s": 1467,
+      "eval_time_s": 78,
+      "eval_edges": 100000
+    }
+  },
+  "quick_validation": {
+    "note": "1 month subsample, 1 epoch, 50K eval edges",
+    "train_edges": 1602898,
+    "train_loss": 0.0728,
+    "val_mrr": 0.7459,
+    "val_hits10": 0.9864,
+    "eval_edges": 50000
+  }
+}
